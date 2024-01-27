@@ -1,0 +1,38 @@
+/* Some customizations over the Arcana theme */
+
+#header {
+    padding: 0px;
+    h1 { display: none; }
+}
+
+table {
+    width: auto;
+
+    th {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    th, td { padding: 5px; }
+
+    /* ROUNDED CORNERS */
+
+    --border: 1px solid grey;
+    border-radius: 10px;
+
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: var(--border);
+
+    /*
+    th:not(:last-child) ,
+    td:not(:last-child) {
+        border-right: var(--border);
+    }
+    */
+
+    thead:not(:last-child)>tr>th,
+    tbody>tr:not(:last-child)>td {
+        border-bottom: var(--border);
+    }
+}
