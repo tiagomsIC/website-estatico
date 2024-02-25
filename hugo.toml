@@ -56,6 +56,44 @@ pluralizelisttitles = "false"
 
 [[menus.main]]
     weight  = 6
+    name    = 'Oportunidades'
+    pageRef = '/oportunidades'
+
+    [[menus.main]]
+        parent  = 'Oportunidades'
+        name    = 'Internas'
+        pageRef = '/oportunidades/internas'
+
+        [[menus.main]]
+            parent  = 'Internas'
+            name    = 'Monitoria'
+            pageRef = '/oportunidades/internas/monitoria'
+    
+        [[menus.main]]
+            parent  = 'Internas'
+            name    = 'Iniciação Científica'
+            pageRef = '/oportunidades/internas/iniciacaocientifica'
+    
+    
+        [[menus.main]]
+            parent  = 'Internas'
+            name    = 'Resultados de avaliações'
+            pageRef = '/oportunidades/internas/resultadosavaliacoes'
+    
+    
+        [[menus.main]]
+            parent  = 'Internas'
+            name    = 'Chamados para coordenadores e secretários'
+            pageRef = '/oportunidades/internas/chamadoscoordsec'
+
+
+    [[menus.main]]
+        parent  = 'Oportunidades'
+        name    = 'Externas'
+        pageRef = '/oportunidades/externas'
+
+[[menus.main]]
+    weight  = 7
     name    = 'Alunos'
     pageref = '/alunos'
 
