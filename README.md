@@ -16,7 +16,7 @@ git clone https://github.com/ic-ufrj/website-estatico
 
 O segundo passo é instalar o Hugo. Eu acho que uma das forma mais fáceis é
 baixar o "prebuilt-binary" encontrado em https://gohugo.io/installation/
-Você pode isntalar no PATH ou deixar na raiz do repositório mesmo.
+Você pode instalar no PATH ou deixar na raiz do repositório mesmo.
 
 Não sei qual é a versão que nós precisamos, mas no outro website eu reparei
 que a versão do Hugo que tinha no Fedora era antiga demais.
@@ -51,7 +51,7 @@ Publicando
 ----------
 
 Para publicar uma postagem, faça o commit e dê push no repositório.
-Em primeiro lugar, solicite ao administrador do repositório para adicionr
+Em primeiro lugar, solicite ao administrador do repositório para adicionar
 você como contribuinte. Em sequida, faça os passos de sempre:
 
 ```
