@@ -72,7 +72,7 @@ pluralizelisttitles = "false"
         [[menus.main]]
             parent  = 'Internas'
             name    = 'Iniciação Científica'
-            pageRef = '/oportunidades/internas/iniciacaocientifica'
+            pageRef = '/oportunidades/internas/ic'
     
     
         [[menus.main]]
