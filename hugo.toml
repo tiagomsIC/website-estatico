@@ -6,7 +6,6 @@ baseURL      = 'http://example.org/'
 title        = 'Instituto de Computação / UFRJ'
 languageCode = 'pt-br'
 
-theme = 'arcana'
 defaultContentLanguage = 'pt-br'
 pluralizelisttitles = "false"
 
@@ -68,19 +67,19 @@ pluralizelisttitles = "false"
             parent  = 'Internas'
             name    = 'Monitoria'
             pageRef = '/oportunidades/internas/monitoria'
-    
+
         [[menus.main]]
             parent  = 'Internas'
             name    = 'Iniciação Científica'
             pageRef = '/oportunidades/internas/ic'
-    
-    
+
+
         [[menus.main]]
             parent  = 'Internas'
             name    = 'Resultados de avaliações'
             pageRef = '/oportunidades/internas/resultadosavaliacoes'
-    
-    
+
+
         [[menus.main]]
             parent  = 'Internas'
             name    = 'Chamados para coordenadores e secretários'
