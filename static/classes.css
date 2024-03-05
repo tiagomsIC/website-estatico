@@ -26,9 +26,10 @@ body {
 
 .cabecalho {
     text-align: center;
-    position: fixed;
     width: 100%;
     z-index: 100;
+    position: sticky;
+    top: 0;
 }
 
 .conteudo {
@@ -209,14 +210,14 @@ body {
 
 .logo-ufrj {
     display: inline-block;
-    margin-right: auto; 
-    padding: 5px; 
+    margin-right: auto;
+    padding: 5px;
     position: absolute;
     left: 10px;
 }
 
 .logo-ufrj img {
-    height: 25px; 
+    height: 25px;
 }
 
 .mensagem{
@@ -276,7 +277,7 @@ body {
     .logoContainer {
         width: auto;
     }
-    
+
     .mobileLogo{
         display: block;
     }
