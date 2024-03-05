@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="/classes.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#" class="logoContainer">
+            <img src="/logo_desktop.png" alt="Logo do IC" class="desktopLogo">
+        </a>
+        <div class="barra-azul">
+            <a href="https://ufrj.br" class="logo-ufrj">
+                <img src="/logo_ufrj.png" alt="Logo UFRJ">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="lista-menu esquerdo">
+                <li class="item-menu"><a href="instituto.html" class="link-menu">O Instituto</a></li>
+                <li class="item-menu"><a href="graduacao.html" class="link-menu">Graduação</a></li>
+                <li class="item-menu">
+                    <a href="#" class="link-menu">Pós-Graduação</a>
+                    <ul class="submenu">
+                        <li><a href="grupos-pesquisa.html">Grupos de Pesquisa</a></li>
+                        <li><a href="projetos-andamento.html">Projetos em Andamento</a></li>
+                        <li><a href="iniciacao-cientifica.html">Iniciação Científica</a></li>
+                        <li><a href="editais.html">Editais</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="lista-menu direito">
+                <li class="item-menu"><a href="extensao.html" class="link-menu">Extensão</a></li>
+
+                <li class="item-menu">
+                    <a href="#" class="link-menu">Oportunidades</a>
+                    <ul class="submenu">
+                        <li><a href="vagas.html">Vagas</a></li>
+                        <li><a href="concursos.html">Concursos</a></li>
+                    </ul>
+                </li>
+                <li class="item-menu"><a href="area-aluno.html" class="link-menu">Área do Aluno</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {{ block "main" . }}
+      <!-- Page contents -->
+    {{ end }}
+
+    <footer class="rodape">
+        <p class="texto-rodape">&copy; 2024 Instituto de Computação - UFRJ. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
